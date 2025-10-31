@@ -1,0 +1,13 @@
+name: License Scan
+
+on:
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get repository license
+        uses: aleksandrfedorov97/check-licenses
+        with:
+          project_license: Apache 2.0
