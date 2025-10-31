@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get repository license
-        uses: aleksandrfedorov97/check-licenses
+        uses: aleksandrfedorov97/check-licenses@v0.0.1
         with:
           project_license: Apache 2.0
